@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h2>Currency Converter</h2>
+        <h4>Enter Amount</h4>
+        <input type="number" class="input">
+        
+        <div class="info">
+          <div class="from">
+            <p>From</p>
+            <div class="from-cnt">
+              <img src="https://flagsapi.com/AE/flat/64.png" alt="">
+              <select name="from" id="selectf">
+              </select>
+            </div>
+          </div>
+
+          <i class="fa-solid fa-arrow-right-arrow-left i"></i>
+  
+          <div class="to">
+            <p>To</p>
+            <div class="to-cnt">
+              <img  src="https://flagsapi.com/AE/flat/64.png" alt="">
+              <select class="selectt" name="from" id=""> 
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div style="color:rgb(248, 248, 41);" class="final-val">1 USD = 80 INR</div>
+
+        <button class="submit">Get Exchange Rate</button>
+
+      </div>
+    </div>
+    <script src="code.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
